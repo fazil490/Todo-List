@@ -59,7 +59,7 @@ function checkDelete(e) {
 }
 
 function filterTodo(e) {
-    const todos = todoList.childNodes
+    const todos = document.querySelectorAll('.todo-Div')
     todos.forEach(function (todo) {
         switch(e.target.value)  {
             case "all":
