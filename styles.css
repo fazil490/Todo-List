@@ -145,3 +145,17 @@ select {
     background-color: #0284c7;
     color: white;
 }
+
+/* Media Queries */
+
+@media(max-width:500px) {
+    .todo-input {
+        width: 60%;
+        margin-left: 1rem;
+    }
+
+    .select {
+        width: 40%;
+    }
+
+}
